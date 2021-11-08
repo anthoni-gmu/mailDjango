@@ -1,0 +1,7 @@
+1.Crear ambiente virtual
+2.Requirements
+3. django-admin startproject core .
+4.tailwind installation 
+5.templates instalations 'DIRS': [os.path.join(BASE_DIR, 'templates')],
+6.crear carpeta templates
+7.crear apps . python manage.py startapp newsletters .
