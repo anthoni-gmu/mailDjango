@@ -3,13 +3,13 @@ from .models import NewsletterUser, Newsletter
 
 
 class NewsletterUserSignUpForm(forms.ModelForm):
-    class meta:
+    class Meta:
         model = NewsletterUser
         fields = ['email']
 
 
 class NewsletterCreateForm(forms.ModelForm):
-    class meta:
+    class Meta:
         models = Newsletter
         fields = ['name',
                   'subject',
